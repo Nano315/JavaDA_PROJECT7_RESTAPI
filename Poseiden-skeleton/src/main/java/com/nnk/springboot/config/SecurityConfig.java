@@ -44,12 +44,7 @@ public class SecurityConfig {
                         .logoutSuccessUrl("/app/login?logout")
                         .invalidateHttpSession(true)
                         .deleteCookies("JSESSIONID")
-                        .permitAll())
-                .csrf(csrf -> csrf
-                        .ignoringRequestMatchers("/h2-console/**") // si tu utilises H2 console
-                )
-                .headers(h -> h.frameOptions(frame -> frame.sameOrigin())); // H2 console
-
+                        .permitAll());
         return http.build();
     }
 }
