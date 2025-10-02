@@ -43,4 +43,12 @@ public class BidTests {
 		Optional<BidList> bidList = bidListRepository.findById(id);
 		Assert.assertFalse(bidList.isPresent());
 	}
+
+	@Test(expected = jakarta.validation.ConstraintViolationException.class)
+	public void bidList_validation_shouldFail_onBlankFields() {
+		// account et type sont @NotBlank → doit lever une exception à la persistance
+		BidList invalid = new BidList("", "", 1d);
+		bidListRepository.saveAndFlush(invalid); // flush pour déclencher la validation JPA
+	}
+
 }
