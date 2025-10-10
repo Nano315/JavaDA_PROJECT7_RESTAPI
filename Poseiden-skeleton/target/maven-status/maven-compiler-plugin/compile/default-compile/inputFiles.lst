@@ -5,6 +5,7 @@ C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTA
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\repositories\BidListRepository.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\MyUserDetailsService.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\domain\Trade.java
+C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\CurvePointServiceImpl.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\domain\CurvePoint.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\controllers\RatingController.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\domain\User.java
@@ -16,6 +17,7 @@ C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTA
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\controllers\BidListController.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\repositories\RatingRepository.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\BidListServiceImpl.java
+C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\CurvePointService.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\Application.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\controllers\LoginController.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\domain\Rating.java
