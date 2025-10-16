@@ -7,6 +7,7 @@ C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTA
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\domain\Trade.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\CurvePointServiceImpl.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\domain\CurvePoint.java
+C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\RuleNameService.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\controllers\RatingController.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\domain\User.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\domain\BidList.java
@@ -24,4 +25,7 @@ C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTA
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\controllers\UserController.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\controllers\RuleNameController.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\repositories\CurvePointRepository.java
+C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\RatingService.java
 C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\BidListService.java
+C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\RatingServiceImpl.java
+C:\Users\Dev\Documents\OpenClassrooms\Formation_DevJava\P7\JavaDA_PROJECT7_RESTAPI\Poseiden-skeleton\src\main\java\com\nnk\springboot\services\RuleNameServiceImpl.java
