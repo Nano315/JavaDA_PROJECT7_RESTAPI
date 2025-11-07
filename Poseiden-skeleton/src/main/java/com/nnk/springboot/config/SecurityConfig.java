@@ -29,9 +29,10 @@ public class SecurityConfig {
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers(
-                                "/app/login", "/app/error", "/css/**", "/", "/home")
-                        .permitAll()
+                        .requestMatchers("/app/login", "/app/error", "/css/**", "/", "/home").permitAll()
+                        .requestMatchers("/user/**").hasRole("ADMIN")
+                        .requestMatchers("/bidList/**", "/curvePoint/**", "/rating/**", "/ruleName/**", "/trade/**")
+                        .hasAnyRole("USER", "ADMIN")
                         .anyRequest().authenticated())
                 .formLogin(form -> form
                         .loginPage("/app/login") // GET: page de login (LoginController)
