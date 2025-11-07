@@ -44,4 +44,10 @@ public class CurvePointTests {
 		Assert.assertFalse(curvePointList.isPresent());
 	}
 
+	@Test(expected = jakarta.validation.ConstraintViolationException.class)
+	public void curvePoint_validation_shouldFail_onNullTerm() {
+		CurvePoint invalid = new CurvePoint(1, null, 10d);
+		curvePointRepository.saveAndFlush(invalid);
+	}
+
 }

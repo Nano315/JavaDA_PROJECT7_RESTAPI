@@ -1,5 +1,6 @@
 package com.nnk.springboot;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,6 +20,15 @@ public class PasswordEncodeTest {
     public void testPassword() {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         String pw = encoder.encode("123456");
-        System.out.println("[ "+ pw + " ]");
+        System.out.println("[ " + pw + " ]");
     }
+
+    @Test
+    public void password_isEncoded() {
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        String raw = "Password123!";
+        String encoded = encoder.encode(raw);
+        Assert.assertTrue(encoder.matches(raw, encoded));
+    }
+
 }

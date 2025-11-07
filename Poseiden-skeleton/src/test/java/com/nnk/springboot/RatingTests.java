@@ -43,4 +43,12 @@ public class RatingTests {
 		Optional<Rating> ratingList = ratingRepository.findById(id);
 		Assert.assertFalse(ratingList.isPresent());
 	}
+
+	@Test(expected = jakarta.validation.ConstraintViolationException.class)
+	public void rating_validation_shouldFail_onNullOrderNumber() {
+		Rating invalid = new Rating("M", "S", "F", 0);
+		invalid.setOrderNumber(null);
+		ratingRepository.saveAndFlush(invalid);
+	}
+
 }

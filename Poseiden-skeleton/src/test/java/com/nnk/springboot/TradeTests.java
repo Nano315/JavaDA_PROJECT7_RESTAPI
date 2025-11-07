@@ -43,4 +43,11 @@ public class TradeTests {
 		Optional<Trade> tradeList = tradeRepository.findById(id);
 		Assert.assertFalse(tradeList.isPresent());
 	}
+
+	@Test(expected = jakarta.validation.ConstraintViolationException.class)
+	public void trade_validation_shouldFail_onBlankAccount() {
+		Trade invalid = new Trade("", "");
+		tradeRepository.saveAndFlush(invalid);
+	}
+
 }
